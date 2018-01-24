@@ -18,10 +18,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="udoo-android-nougat/android_bionic" revision="android-7.1" remote="github" />
+  <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="frameworks/av" name="udoo-android-nougat/android_frameworks_av" revision="android-7.1" remote="github" />
   <project path="frameworks/base" name="udoo-android-nougat/android_frameworks_base" revision="android-7.1" remote="github" />
   <project path="frameworks/native" name="udoo-android-nougat/android_frameworks_native" revision="android-7.1" remote="github" />
-  <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="packages/apps/Gallery2" name="udoo-android-nougat/android_packages_apps_Gallery2" revision="android-7.1" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
   <project path="system/core" name="udoo-android-nougat/android_system_core" revision="android-7.1" remote="github" />
