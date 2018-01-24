@@ -24,6 +24,7 @@
   <project path="frameworks/ex" name="udoo-android-nougat/android_frameworks_ex" revision="android-7.1" remote="github" />
   <project path="frameworks/native" name="udoo-android-nougat/android_frameworks_native" revision="android-7.1" remote="github" />
   <project path="frameworks/support" name="udoo-android-nougat/android_frameworks_support" revision="android-7.1" remote="github" />
+  <project path="hardware/libhardware" name="udoo-android-nougat/android_hardware_libhardware" revision="android-7.1" remote="github" />
   <project path="packages/apps/Gallery2" name="udoo-android-nougat/android_packages_apps_Gallery2" revision="android-7.1" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
   <project path="system/core" name="udoo-android-nougat/android_system_core" revision="android-7.1" remote="github" />
@@ -339,7 +340,6 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
