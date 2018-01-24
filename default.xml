@@ -36,6 +36,7 @@
   <project path="external/linux-firmware-imx" name="udoo-android-nougat/android_external_linux-firmware-imx" revision="android-7.1" remote="github" />
   <project path="external/linux-lib" name="udoo-android-nougat/android_external_linux-lib" revision="android-7.1" remote="github" />
   <project path="external/ntfs-3g" name="udoo-android-nougat/android_external_ntfs-3g" revision="android-7.1" remote="github" />
+  <project path="external/skia" name="udoo-android-nougat/android_external_skia" revision="android-7.1" remote="github" />
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
   <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
   <project path="system/media" name="udoo-android-nougat/android_system_media" revision="android-7.1" remote="github" />
@@ -261,7 +262,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
