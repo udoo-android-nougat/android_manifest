@@ -22,6 +22,7 @@
   <project path="frameworks/native" name="udoo-android-nougat/android_frameworks_native" revision="android-7.1" remote="github" />
   <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
+  <project path="system/extras" name="udoo-android-nougat/android_system_extras" revision="android-7.1" remote="github" />
 
   <!-- projects added from UDOOboard -->
   <project path="bootable/bootloader/uboot-imx" name="UDOOboard/uboot-imx" revision="2015.04.imx" remote="github" />
@@ -427,7 +428,6 @@
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
