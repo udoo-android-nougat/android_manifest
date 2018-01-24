@@ -10,6 +10,7 @@
 
   <default revision="refs/tags/android-7.1.1_r13"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <!-- projects added/changed by secuflag -->
