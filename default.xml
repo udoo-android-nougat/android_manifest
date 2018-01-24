@@ -19,6 +19,7 @@
   </project>
   <project path="bionic" name="udoo-android-nougat/android_bionic" revision="android-7.1" remote="github" />
   <project path="frameworks/base" name="udoo-android-nougat/android_frameworks_base" revision="android-7.1" remote="github" />
+  <project path="frameworks/native" name="udoo-android-nougat/android_frameworks_native" revision="android-7.1" remote="github" />
   <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
 
@@ -304,7 +305,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
