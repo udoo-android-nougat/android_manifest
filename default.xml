@@ -38,6 +38,7 @@
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
   <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
   <project path="system/media" name="udoo-android-nougat/android_system_media" revision="android-7.1" remote="github" />
+  <project path="system/vold" name="udoo-android-nougat/android_system_vold" revision="android-7.1" remote="github" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -439,7 +440,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
