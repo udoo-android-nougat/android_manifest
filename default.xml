@@ -33,6 +33,7 @@
   <project path="kernel" name="udoo-android-nougat/android_kernel_udoo" revision="imx-4.1.x" remote="github" />
   <project path="packages/apps/Camera2" name="udoo-android-nougat/android_packages_apps_Camera2" revision="android-7.1" remote="github" />
   <project path="packages/apps/Gallery2" name="udoo-android-nougat/android_packages_apps_Gallery2" revision="android-7.1" remote="github" />
+  <project path="packages/apps/Ethernet" name="udoo-android-nougat/android_packages_apps_Ethernet" revision="master" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
   <project path="system/core" name="udoo-android-nougat/android_system_core" revision="android-7.1" remote="github" />
   <project path="system/extras" name="udoo-android-nougat/android_system_extras" revision="android-7.1" remote="github" />
