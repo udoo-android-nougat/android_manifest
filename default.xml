@@ -46,6 +46,8 @@
   <project path="external/linux-lib" name="udoo-android-nougat/android_external_linux-lib" revision="android-7.1" remote="github" />
   <project path="external/ntfs-3g" name="udoo-android-nougat/android_external_ntfs-3g" revision="android-7.1" remote="github" />
   <project path="external/skia" name="udoo-android-nougat/android_external_skia" revision="android-7.1" remote="github" />
+  <project path="hardware/broadcom/libbt" name="udoo-android-nougat/android_hardware_broadcom_libbt" revision="android-7.1" remote="github" />
+  <project path="hardware/broadcom/wlan" name="udoo-android-nougat/android_hardware_broadcom_wlan" revision="android-7.1" remote="github" />
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
   <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
   <project path="packages/apps/SoundRecorder" name="udoo-android-nougat/android_packages_apps_SoundRecorder" revision="android-7.1" remote="github" />
@@ -340,8 +342,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
