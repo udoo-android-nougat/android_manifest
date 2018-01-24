@@ -12,6 +12,12 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- projects added/changed by secuflag -->
+  <project path="build" name="android_build" revision="android-7.1" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/base" name="android_frameworks_base" revision="android-7.1" remote="github" />
+
   <!-- projects added from UDOOboard -->
   <project path="bootable/bootloader/uboot-imx" name="UDOOboard/uboot-imx" revision="2015.04.imx" remote="github" />
 
@@ -25,9 +31,6 @@
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
 
   <!-- Unchanged AOSP projects -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -293,7 +296,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
