@@ -25,6 +25,7 @@
   <project path="frameworks/base" name="udoo-android-nougat/android_frameworks_base" revision="android-7.1" remote="github" />
   <project path="frameworks/ex" name="udoo-android-nougat/android_frameworks_ex" revision="android-7.1" remote="github" />
   <project path="frameworks/native" name="udoo-android-nougat/android_frameworks_native" revision="android-7.1" remote="github" />
+  <project path="frameworks/opt/net/ethernet" name="udoo-android-nougat/android_frameworks_opt_net_ethernet" revision="android-7.1" remote="github" />
   <project path="frameworks/support" name="udoo-android-nougat/android_frameworks_support" revision="android-7.1" remote="github" />
   <project path="hardware/libhardware" name="udoo-android-nougat/android_hardware_libhardware" revision="android-7.1" remote="github" />
   <project path="hardware/libhardware_legacy" name="udoo-android-nougat/android_hardware_libhardware_legacy" revision="android-7.1" remote="github" />
@@ -325,7 +326,6 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
