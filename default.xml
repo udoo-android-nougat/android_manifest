@@ -32,6 +32,7 @@
   <project path="external/linux-lib" name="udoo-android-nougat/android_external_linux-lib" revision="android-7.1" remote="github" />
   <project path="external/ntfs-3g" name="udoo-android-nougat/android_external_ntfs-3g" revision="android-7.1" remote="github" />
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
+  <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -333,7 +334,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
