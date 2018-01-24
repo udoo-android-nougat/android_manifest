@@ -14,11 +14,11 @@
            sync-j="4" />
 
   <!-- projects added/changed by secuflag -->
-  <project path="build" name="android_build" revision="android-7.1" remote="github" >
+  <project path="build" name="udoo-android-nougat/android_build" revision="android-7.1" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" revision="android-7.1" remote="github" />
-  <project path="frameworks/base" name="android_frameworks_base" revision="android-7.1" remote="github" />
+  <project path="bionic" name="udoo-android-nougat/android_bionic" revision="android-7.1" remote="github" />
+  <project path="frameworks/base" name="udoo-android-nougat/android_frameworks_base" revision="android-7.1" remote="github" />
   <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="packages/apps/Settings" name="udoo-android-nougat/android_packages_apps_Settings" revision="android-7.1" remote="github" />
 
