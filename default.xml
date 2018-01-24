@@ -35,6 +35,7 @@
   <project path="external/ntfs-3g" name="udoo-android-nougat/android_external_ntfs-3g" revision="android-7.1" remote="github" />
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
   <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
+  <project path="system/media" name="udoo-android-nougat/android_system_media" revision="android-7.1" remote="github" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -430,7 +431,6 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
