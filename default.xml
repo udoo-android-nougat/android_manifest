@@ -40,6 +40,7 @@
   <project path="external/skia" name="udoo-android-nougat/android_external_skia" revision="android-7.1" remote="github" />
   <project path="hardware/imx" name="udoo-android-nougat/android_hardware_imx" revision="android-7.1" remote="github" />
   <project path="libcore" name="udoo-android-nougat/android_libcore" revision="android-7.1" remote="github" />
+  <project path="system/bt" name="udoo-android-nougat/android_system_bt" revision="android-7.1" remote="github" />
   <project path="system/media" name="udoo-android-nougat/android_system_media" revision="android-7.1" remote="github" />
   <project path="system/vold" name="udoo-android-nougat/android_system_vold" revision="android-7.1" remote="github" />
 
@@ -423,7 +424,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
