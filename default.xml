@@ -18,6 +18,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="udoo-android-nougat/android_bionic" revision="android-7.1" remote="github" />
+  <project path="external/dnsmasq" name="udoo-android-nougat/android_external_dnsmasq" revision="android-7.1" remote="github" />
   <project path="external/tinyalsa" name="udoo-android-nougat/android_external_tinyalsa" revision="android-7.1" remote="github" />
   <project path="external/wpa_supplicant_8" name="udoo-android-nougat/android_external_wpa_supplicant_8" revision="android-7.1" remote="github" />
   <project path="frameworks/av" name="udoo-android-nougat/android_frameworks_av" revision="android-7.1" remote="github" />
@@ -108,7 +109,6 @@
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
