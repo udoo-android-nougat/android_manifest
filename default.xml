@@ -38,6 +38,7 @@
   <project path="system/core" name="udoo-android-nougat/android_system_core" revision="android-7.1" remote="github" />
   <project path="system/extras" name="udoo-android-nougat/android_system_extras" revision="android-7.1" remote="github" />
   <project path="system/sepolicy" name="udoo-android-nougat/android_system_sepolicy" revision="android-7.1" remote="github" />
+  <project path="vendor/aospmod" name="udoo-android-nougat/android_vendor_aospmod" revision="android-7.1" remote="github" />
 
   <!-- projects added from UDOOboard -->
   <project path="bootable/bootloader/uboot-imx" name="UDOOboard/uboot-imx" revision="2015.04.imx" remote="github" />
