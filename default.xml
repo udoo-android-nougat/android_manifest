@@ -19,6 +19,7 @@
   </project>
   <project path="build/kati" name="udoo-android-nougat/android_build_kati" revision="android-7.1" remote="github" />
   <project path="bionic" name="udoo-android-nougat/android_bionic" revision="android-7.1" remote="github" />
+  <project path="bootable/bootloader/uboot-imx" name="udoo-android-nougat/android_bootable_bootloader_uboot-imx" revision="2015.04.imx" remote="github" />
   <project path="device/udoo" name="udoo-android-nougat/android_device_udoo" revision="android-7.1" remote="github" />
   <project path="external/chromium-webview" name="udoo-android-nougat/android_external_chromium-webview" revision="android-7.1" remote="github" />
   <project path="external/dnsmasq" name="udoo-android-nougat/android_external_dnsmasq" revision="android-7.1" remote="github" />
@@ -44,9 +45,6 @@
   <project path="system/extras" name="udoo-android-nougat/android_system_extras" revision="android-7.1" remote="github" />
   <project path="system/sepolicy" name="udoo-android-nougat/android_system_sepolicy" revision="android-7.1" remote="github" />
   <project path="vendor/aospmod" name="udoo-android-nougat/android_vendor_aospmod" revision="android-7.1" remote="github" />
-
-  <!-- projects added from UDOOboard -->
-  <project path="bootable/bootloader/uboot-imx" name="UDOOboard/uboot-imx" revision="2015.04.imx" remote="github" />
 
   <!-- projects added from omnirom -->
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-7.1" remote="github" />
