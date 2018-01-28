@@ -74,8 +74,8 @@
     UBER Toolchains
     https://github.com/UBERTC
   -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="udoo-android-nougat/android_prebuilts_gcc_linux-x86_arm_arm-eabi-6.x" revision="master" remote="github" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="udoo-android-nougat/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-6.x" revision="master" remote="github" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.x" name="udoo-android-nougat/android_prebuilts_gcc_linux-x86_arm_arm-eabi-7.x" revision="master" remote="github" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="udoo-android-nougat/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-7.x" revision="master" remote="github" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
