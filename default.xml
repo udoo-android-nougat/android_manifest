@@ -50,6 +50,9 @@
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-7.1" remote="github" />
   <project path="external/busybox" name="omnirom/android_external_busybox" revision="android-7.1" remote="github" />
 
+  <!-- projects added from LineageOS -->
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="cm-14.1" remote="github" />
+
   <!-- projects added/changed by NPX -->
   <project path="device/fsl-codec" name="udoo-android-nougat/android_device_fsl-codec" revision="android-7.1" remote="github" />
   <project path="device/fsl-proprietary" name="udoo-android-nougat/android_device_fsl-proprietary" revision="android-7.1" remote="github" />
