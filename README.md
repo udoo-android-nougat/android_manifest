@@ -37,5 +37,5 @@ $ make -jxx
    ```
    $ sudo ./write_sdcard_ext4.sh -f soc_name /dev/sdX
    ```
-   + Replace *soc_name* with *q* for UDOO Dual/Quad or *sx* for UDOO Neo
+   + Replace *soc_name* with *imx6q* for UDOO Dual/Quad or *imx6sx* for UDOO Neo
    + Replace *dev/sdX* with the correct device letter.
